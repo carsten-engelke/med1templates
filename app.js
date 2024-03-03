@@ -36,16 +36,7 @@ function updateCards(list) {
     for (const obj of list) {
     
         var card = document.createElement("div")
-        card.className = "card";
-        alert(obj.image)
-        if (obj.image !== undefined and obj.image !== null) {
-            var image = document.createElement("img");
-            image.src = obj.image;
-            image.alt = obj.title;
-            image.style = "float:left;margin:10px"
-            card.appendChild(image);
-        }
-        
+        card.className = "card";        
         var container = document.createElement("div");
         container.className = "container";
         container.innerHTML = "<h4><b>" + obj.title + "</b></h4>"+
