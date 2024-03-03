@@ -49,9 +49,12 @@ function updateCards(list) {
         container.innerHTML = "<h4><b>" + obj.title + " <p style=\"color:Gray;\">(" + obj.title_EN + ")</p></b></h4>"+
             "<h5>" + obj.type + "</h5><p>" + obj.text + "</p>";
         card.appendChild(container);
-        document.getElementById("result").appendChild(card);
+        var tooltip = document.createElement("div")
+        tooltip.className = "tooltip"
+        tooltip.appendChild(card)
+        document.getElementById("result").appendChild(tooltip);
         card.addEventListener("click", () => {
-            alert(obj.text);
+            tooltip.innerHtmL = obj.text;
         });
     }
 }
