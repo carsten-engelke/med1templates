@@ -49,7 +49,7 @@ function updateCards(list) {
             "<h5>" + obj.type + "</h5><p>" + obj.text + "</p>";
             card.appendChild(container);
         container.addEventListener("click","copyToClipboard()")
-        card.addEventListener("click","copyToClipboard()")
+        card.addEventListener("click",function() {navigator.clipboard.writeText(obj.text)})
         document.getElementById("result").appendChild(card);
     }
 }
@@ -81,5 +81,5 @@ function loadFile(filePath) {
   }
 
 function copyToClipboard() {
-    navigator.clipboard.writeText("hi")
+    
 }
