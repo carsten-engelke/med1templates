@@ -52,7 +52,7 @@ function updateCards(list) {
         document.getElementById("result").appendChild(card);
         card.addEventListener("click", () => {
             navigation.clipboard.writeText(obj.text);
-            document.getElementById("message").fadeIn( 300 ).delay( 1500 ).fadeOut( 400 );
+            $( "div.success" ).fadeIn( 300 ).delay( 1500 ).fadeOut( 400 );
         });
     }
 }
