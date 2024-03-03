@@ -4,6 +4,12 @@
     border-radius: 5px; /* 5px rounded corners */
     margin: 10px;
   }
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 140px;
