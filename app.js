@@ -79,7 +79,3 @@ function loadFile(filePath) {
     }
     xmlhttp.send();
   }
-
-function copyToClipboard() {
-    alert("function called")
-}
