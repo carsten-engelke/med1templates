@@ -6,7 +6,7 @@ var db;
 if (search !== null && search !== "") {
     document.getElementById("searchbar").value = search;
 }
-loadFile("templates-db.json");
+loadFile("template-db.json");
 var searchBar = document.getElementById("searchbar");
 var timeout = null;
 searchBar.addEventListener('keyup', function (e) {
