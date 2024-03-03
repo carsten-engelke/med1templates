@@ -54,7 +54,7 @@ function updateCards(list) {
         tooltip.appendChild(card)
         document.getElementById("result").appendChild(tooltip);
         card.addEventListener("click", () => {
-            navigator.clipboard.writeText("hi was geht")
+            navigator.clipboard.writeText("hi was geht");
         });
     }
 }
