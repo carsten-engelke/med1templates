@@ -48,7 +48,7 @@ function updateCards(list) {
             container.innerHTML = "<h4><b>" + obj.title + " <p style=\"color:Gray;\">(" + obj.title_EN + ")</p></b></h4>"+
             "<h5>" + obj.type + "</h5><p>" + obj.text + "</p>";
             card.appendChild(container);
-       
+        card.setAttribute("onClick","copyToClipboard(" + obj.text + ")")
         document.getElementById("result").appendChild(card);
     }
 }
@@ -78,3 +78,7 @@ function loadFile(filePath) {
     }
     xmlhttp.send();
   }
+
+function copyToClipboard(text) {
+    navigator.clipboard.writeText(text)
+}
