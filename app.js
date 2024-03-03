@@ -51,8 +51,7 @@ function updateCards(list) {
         card.appendChild(container);
         document.getElementById("result").appendChild(card);
         card.addEventListener("click", () => {
-            navigation.clipboard.writeText(obj.text);
-            $( "div.success" ).fadeIn( 300 ).delay( 1500 ).fadeOut( 400 );
+            alert(obj.text);
         });
     }
 }
