@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# File name: xxxx.py
+# File name: csvDB-to-json.py
 # Description: 
 # Author: Carsten Engelke 
 # Date: 03-03-2024
@@ -13,6 +13,7 @@ else:
     srcfile = "template-db.csv"
 
 db = list()
+#use endoding of excel output!
 with open(srcfile, encoding="utf-8-sig") as src:
     for line in src:
         if line != "":
