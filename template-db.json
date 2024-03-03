@@ -3,31 +3,18 @@
         "image": null,
         "title": "Abfangen",
         "tags": "Objektmerkmal",
-        "text": "Wenn diese <a href='?q=Kreatur'>Kreatur</a> Wache hält und ein <a href='?q=Fernangriff'>Fernangriff</a> ein nicht <a href='?q=fliegen'>fliegen</a>des <a href='?q=Objekt'>Objekt</a> in derselben <a href='?q=Zone'>Zone</a> zum Ziel hat, darf diese <a href='?q=Kreatur'>Kreatur</a> den <a href='?q=Fernangriff'>Fernangriff</a> auf sich selbst lenken, vorausgesetzt, sie ist ein erlaubtes Ziel für diesen <a href='?q=Angriff'>Angriff</a>. Ein <a href='?q=Abfangen'>Abfangen</a> muss sofort nach dem Schritt <a href='?q=Angriff'>Angriff</a> erklären angesagt werden und findet sofort statt, noch vor dem Schritt <a href='?q=Angriff'>Angriff</a> vermeiden. Die <a href='?q=Kreatur'>Kreatur</a> verliert ihr Plättchen Wache am Ende des <a href='?q=Angriff'>Angriff</a>s, den sie abfängt. Ein <a href='?q=Zonenangriff'>Zonenangriff</a> kann nicht abgefangen werden. <a href='?q=Gezügelt'>Gezügelt</a>e oder <a href='?q=Handlungsunfähig'>Handlungsunfähig</a>e <a href='?q=Kreatur'>Kreatur</a>en können nicht <a href='?q=abfangen'>abfangen</a>.",
-        "title_link": [
-            "Abfangen",
-            "abfangen"
-        ],
+        "text": "Wenn diese <a href='?q=Kreatur'>Kreatur</a> Wache hält und ein <a href='?q=Fernangriff'>Fernangriff</a> ein nicht <a href='?q=fliegen'>fliegen</a>des <a href='?q=Objekt'>Objekt</a> in derselben <a href='?q=Zone'>Zone</a> zum Ziel hat, darf diese <a href='?q=Kreatur'>Kreatur</a> den <a href='?q=Fernangriff'>Fernangriff</a> auf sich selbst lenken, vorausgesetzt, sie ist ein erlaubtes Ziel für diesen <a href='?q=Angriff'>Angriff</a>. Ein <a href='?q=Abfangen'>Abfangen</a> muss sofort nach dem Schritt <a href='?q=Angriff'>Angriff</a> erklären angesagt werden und findet sofort statt, noch vor dem Schritt <a href='?q=Angriff'>Angriff</a> vermeiden. Die <a href='?q=Kreatur'>Kreatur</a> verliert ihr Plättchen Wache am Ende des <a href='?q=Angriff'>Angriff</a>s, den sie abfängt. Ein <a href='?q=Zonenangriff'>Zonenangriff</a> kann nicht abgefangen werden. <a href='?q=Gezügelt'>Gezügelt</a>e oder <a href='?q=Handlungsunfähig'>Handlungsunfähig</a>e <a href='?q=Kreatur'>Kreatur</a>en können nicht <a href='?q=abfangen'>abfangen</a>."
     },
     {
         "image": null,
         "title": "Abgebrochen, Aufgehoben",
         "tags": "Spielbegriff",
-        "text": "Wenn ein Zauber, <a href='?q=Angriff'>Angriff</a> oder <a href='?q=Effekt'>Effekt</a> <a href='?q=abgebrochen'>abgebrochen</a> bzw. <a href='?q=aufgehoben'>aufgehoben</a> wird, stoppt er und hat keine weitere Auswirkung.",
-        "title_link": [
-            "Abgebrochen",
-            "Aufgehoben",
-            "abgebrochen",
-            "aufgehoben"
-        ],
+        "text": "Wenn ein Zauber, <a href='?q=Angriff'>Angriff</a> oder <a href='?q=Effekt'>Effekt</a> <a href='?q=abgebrochen'>abgebrochen</a> bzw. <a href='?q=aufgehoben'>aufgehoben</a> wird, stoppt er und hat keine weitere Auswirkung."
     },
     {
         "image": null,
         "title": "Ablagestapel",
         "tags": "Spielbegriff",
-        "text": "Jeder <a href='?q=Magier'>Magier</a> hat seinen eigenen <a href='?q=Ablagestapel'>Ablagestapel</a>. <a href='?q=Zerstört'>Zerstört</a>e Zauber und <a href='?q=Objekt'>Objekt</a>e kommen immer auf den <a href='?q=Ablagestapel'>Ablagestapel</a> ihres jeweiligen <a href='?q=Besitzer'>Besitzer</a>s (egal, unter wessen „Kontrolle“ sie in diesem Augenblick sind). Viele Zauber, wie etwa <a href='?q=Formel'>Formel</a>n, werden automatisch nach ihrer Ausführung abgelegt.Wichtig: Jeder Spieler darf jederzeit den Inhalt jedes <a href='?q=Ablagestapel'>Ablagestapel</a>s durchsehen.Karten in deinem <a href='?q=Ablagestapel'>Ablagestapel</a> sind „verbraucht“. Sie sind außerhalb deines <a href='?q=Zauberbuch'>Zauberbuch</a>s und können nicht wieder benutzt werden. Das bedeutet also, dass jeder Zauber in deinem Buch nur einmal während des Spiels angewendet werden kann (es sei denn, ein Zauber oder eine Eigenschaft erlauben eine erneute Benutzung).",
-        "title_link": [
-            "Ablagestapel"
-        ],
+        "text": "Jeder <a href='?q=Magier'>Magier</a> hat seinen eigenen <a href='?q=Ablagestapel'>Ablagestapel</a>. <a href='?q=Zerstört'>Zerstört</a>e Zauber und <a href='?q=Objekt'>Objekt</a>e kommen immer auf den <a href='?q=Ablagestapel'>Ablagestapel</a> ihres jeweiligen <a href='?q=Besitzer'>Besitzer</a>s (egal, unter wessen „Kontrolle“ sie in diesem Augenblick sind). Viele Zauber, wie etwa <a href='?q=Formel'>Formel</a>n, werden automatisch nach ihrer Ausführung abgelegt.Wichtig: Jeder Spieler darf jederzeit den Inhalt jedes <a href='?q=Ablagestapel'>Ablagestapel</a>s durchsehen.Karten in deinem <a href='?q=Ablagestapel'>Ablagestapel</a> sind „verbraucht“. Sie sind außerhalb deines <a href='?q=Zauberbuch'>Zauberbuch</a>s und können nicht wieder benutzt werden. Das bedeutet also, dass jeder Zauber in deinem Buch nur einmal während des Spiels angewendet werden kann (es sei denn, ein Zauber oder eine Eigenschaft erlauben eine erneute Benutzung)."
     }
 ]
