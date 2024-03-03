@@ -50,7 +50,10 @@ function updateCards(list) {
             "<h5>" + obj.type + "</h5><p>" + obj.text + "</p>";
         card.appendChild(container);
         document.getElementById("result").appendChild(card);
-        card.addEventListener("click", () => {alert("obj.text")});
+        card.addEventListener("click", () => {
+            navigation.clipboard.writeText(obj.text);
+            document.getElementById("message").fadeIn( 300 ).delay( 1500 ).fadeOut( 400 );
+        });
     }
 }
 
