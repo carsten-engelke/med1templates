@@ -47,7 +47,6 @@ function updateCards(list) {
             var regex = /<br\s*[\/]?>/gi;
             var output = obj.text.replace(regex, "\n")
             navigator.clipboard.writeText(output);
-            alert(output)
             document.getElementById("message").innerHTML = "Textblock in Zwischenablage kopiert!";
             document.getElementById("message").style.visibility = "visible";
             setTimeout(function(){
