@@ -36,7 +36,6 @@ function updateCards(list) {
     
         var card = document.createElement("div")
         card.className = "card";
-        card.onclick = function() {alert("hi")}
         if (obj.image !== null) {
             var image = document.createElement("img");
             image.src = obj.image;
@@ -44,13 +43,13 @@ function updateCards(list) {
             image.style = "float:left;margin:10px"
             card.appendChild(image);
         }
-            var container = document.createElement("div")
-            container.className = "container";
-            container.innerHTML = "<h4><b>" + obj.title + " <p style=\"color:Gray;\">(" + obj.title_EN + ")</p></b></h4>"+
+        
+        var container = document.createElement("div");
+        container.className = "container";
+        container.innerHTML = "<h4><b>" + obj.title + " <p style=\"color:Gray;\">(" + obj.title_EN + ")</p></b></h4>"+
             "<h5>" + obj.type + "</h5><p>" + obj.text + "</p>";
-            card.appendChild(container);
-        container.addEventListener("click",function() {alert("hi")})
-        card.addEventListener("click",function() {alert("hi")})
+        container.onclick = function() {alert("hi")}
+        card.appendChild(container);
         document.getElementById("result").appendChild(card);
     }
 }
