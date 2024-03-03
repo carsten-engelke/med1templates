@@ -47,7 +47,7 @@ function updateCards(list) {
         var container = document.createElement("div");
         container.className = "container";
         container.innerHTML = "<h4><b>" + obj.title + "</b></h4>"+
-            "<h5>" + obj.tags + "</h5><p>" + obj.text + "</p><button>PRESSME</button>";
+            "<h5>" + obj.tags + "</h5><p>" + obj.text + "</p>";
         card.appendChild(container);
         document.getElementById("result").appendChild(card);
         card.addEventListener("click", () => {
