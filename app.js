@@ -38,7 +38,7 @@ function updateCards(list) {
         var card = document.createElement("div")
         card.className = "card";
         alert(obj.image)
-        if (obj.image !== null) {
+        if (obj.image !== undefined and obj.image !== null) {
             var image = document.createElement("img");
             image.src = obj.image;
             image.alt = obj.title;
