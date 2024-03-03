@@ -44,7 +44,8 @@ function updateCards(list) {
         card.appendChild(container);
         document.getElementById("result").appendChild(card);
         card.addEventListener("click", () => {
-            navigator.clipboard.writeText(obj.text);
+            var regex = /<br\s*[\/]?>/gi;
+            navigator.clipboard.writeText(obj.text.replace(regex, "\n"));
             document.getElementById("message").innerHTML = "Textblock in Zwischenablage kopiert!";
             document.getElementById("message").style.visibility = "visible";
             setTimeout(function(){
