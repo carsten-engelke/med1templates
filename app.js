@@ -36,6 +36,7 @@ function updateCards(list) {
     
         var card = document.createElement("div")
         card.className = "card";
+        card.onclick = function() {alert("hi")}
         if (obj.image !== null) {
             var image = document.createElement("img");
             image.src = obj.image;
@@ -81,5 +82,5 @@ function loadFile(filePath) {
   }
 
 function copyToClipboard() {
-    
+    alert("function called")
 }
