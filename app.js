@@ -50,7 +50,7 @@ function updateCards(list) {
             "<h5>" + obj.type + "</h5><p>" + obj.text + "</p>";
         card.appendChild(container);
         document.getElementById("result").appendChild(card);
-        card.addEventListener("click",function() {alert("moin")});
+        card.addEventListener("click", () => {alert("moin")});
     }
 }
 
