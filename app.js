@@ -46,16 +46,13 @@ function updateCards(list) {
         
         var container = document.createElement("div");
         container.className = "container";
-        container.innerHTML = "<h4><b>" + obj.title + " <p style=\"color:Gray;\">(" + obj.title_EN + ")</p></b></h4>"+
-            "<h5>" + obj.type + "</h5><p>" + obj.text + "</p>";
+        container.innerHTML = "<h4><b>" + obj.title + "</b></h4>"+
+            "<h5>" + obj.tags + "</h5><p>" + obj.text + "</p><button onclick= () => {
+            navigator.clipboard.writeText(" + obj.text + ")}>Copy to Clipboard</button>";
         card.appendChild(container);
-        var tooltip = document.createElement("div")
-        tooltip.className = "tooltip"
-        tooltip.appendChild(card)
-        document.getElementById("result").appendChild(tooltip);
+        document.getElementById("result").appendChild(card);
         card.addEventListener("click", () => {
             navigator.clipboard.writeText(obj.text);
-            tooltip.innerHTML = "HI";
         });
     }
 }
