@@ -16,6 +16,7 @@ searchBar.addEventListener('keyup', function (e) {
         }, 1000);
     });
 updateList();
+document.getElementById("message").style.visibility = "hidden"
 
 function updateList() {
     updateSearch(document.getElementById("searchbar").value);
@@ -52,6 +53,11 @@ function updateCards(list) {
         document.getElementById("result").appendChild(card);
         card.addEventListener("click", () => {
             navigator.clipboard.writeText(obj.text);
+            document.getElementById("message").innerHTML = "Textblock in Zwischenablage kopiert!";
+            document.getElementById("message").style.visibility = "visible";
+            setTimeout(function(){
+                document.getElementById("message").style.visibility = "hidden";
+            }, 1000);
         });
     }
 }
